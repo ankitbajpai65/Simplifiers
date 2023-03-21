@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginSec {
+    margin-top: 3.6rem;
+    height: 92vh;
+    background: #CED4CA;
+}
+
+.loginDiv {
+    /* border: 2px solid red; */
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginFormDiv {
+    /* border: 2px solid black; */
+    background: white;
+    height: 65%;
+    /* width: 28%; */
+    width: 27rem;
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.signinFormDiv {
+    height: 78%;
+}
+
+.loginFormDiv label {
+    margin: 1rem 0rem;
+}
+
+.loginFormDiv input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: #CED4CA;
+    border: none;
+    /* border-bottom: 2px solid green; */
+    outline: none;
+}
+
+.visibilityIcon {
+    position: absolute;
+    top: 13rem;
+    right: 4rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.vIcon {
+    position: absolute;
+    top: 20rem;
+    right: 4rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.errorMsg {
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+.loginPageBtn {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+
+.not_has_account button {
+    background: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+    .loginFormDiv {
+        width: 35rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .loginFormDiv {
+        width: 38rem;
+    }
+}

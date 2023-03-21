@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.videoCard {
+    width: 22rem;
+    margin-bottom: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.newsCard {
+    width: 22rem;
+    margin-bottom: 3rem;
+    border: none;
+}
+
+.card img {
+    border-radius: 12px;
+}
+
+.videoTitle,
+.channelName {
+    cursor: pointer;
+}

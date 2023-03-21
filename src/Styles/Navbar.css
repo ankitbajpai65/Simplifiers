@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    overflow-x: hidden;
+}
+
+.brand {
+    font-weight: 500;
+}
+
+.active {
+    background-color: white;
+    box-shadow: 0 8px 8px -7px #b4afaf;
+}
+
+.brand {
+    text-decoration: none;
+}
