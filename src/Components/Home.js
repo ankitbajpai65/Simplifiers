@@ -17,7 +17,7 @@ const Home = () => {
         }))
             .then(res => res.json())
             .then(data => {
-                console.log(data.items);
+                // console.log(data.items);
                 setYoutubeData(data.items);
             })
             .catch(err => console.log(err));
